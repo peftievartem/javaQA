@@ -1,6 +1,6 @@
-package main.java.JavaQA;
+package main.java.JavaTAQC;
 
-public class App {
+public class Simple {
     public static void main(String[] args) {
         System.out.println("Hello");
     }
