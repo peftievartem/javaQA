@@ -30,13 +30,12 @@ public class Calculator {
         System.out.println("Sum = " + sum(firstArgInt, secondArgInt));
         System.out.println("Subtract = " + subtract(firstArgInt, secondArgInt));
         System.out.println("Multiply = " + multiply(firstArgInt, secondArgInt));
-        String divValue = "";
+        Integer divValue = null;
         if (division(firstArgInt, secondArgInt) != null){
-            divValue = division(firstArgInt, secondArgInt);
+            System.out.println("Division = " + division(firstArgInt, secondArgInt));
         }else{
-            divValue = "division by zero";
+            System.out.println("Division = division by zero");
         }
-        System.out.println("Division = " + divValue);
     }
 
     public static int sum(int a, int b){
@@ -51,9 +50,9 @@ public class Calculator {
         return a * b;
     }
 
-    public static String division(int a, int b){
+    public static Integer division(int a, int b){
         try {
-            return String.valueOf(a / b);
+            return a / b;
         } catch (ArithmeticException e) {
             return null;
         }
