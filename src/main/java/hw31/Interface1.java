@@ -1,4 +1,4 @@
-package main.java.hw31;
+package hw31;
 
 public interface Interface1 {
 

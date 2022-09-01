@@ -1,4 +1,4 @@
-package main.java.hw2;
+package hw2;
 
 import java.time.LocalDate;
 import java.time.Period;
@@ -51,7 +51,7 @@ public class Person {
         System.out.println("Enter name:");
         p.setName(sc.nextLine());
 
-        System.out.println("Enter Birth Year 2022-20-20:");
+        System.out.println("Enter Birth Date in format 2022-12-20:");
         p.setBirthDate(LocalDate.parse(sc.nextLine()));
         return p;
     }

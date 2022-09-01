@@ -1,4 +1,4 @@
-package main.java.JavaTAQC;
+package JavaTAQC;
 
 public class Simple {
     public static void main(String[] args) {

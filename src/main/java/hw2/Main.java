@@ -1,4 +1,4 @@
-package main.java.hw2;
+package hw2;
 
 import java.time.LocalDate;
 

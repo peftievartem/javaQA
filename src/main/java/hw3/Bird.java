@@ -1,4 +1,4 @@
-package main.java.hw3;
+package hw3;
 
 public abstract class Bird {
     private boolean feathers;

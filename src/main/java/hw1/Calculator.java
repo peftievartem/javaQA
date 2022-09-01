@@ -1,4 +1,4 @@
-package main.java.hw1;
+package hw1;
 
 import java.util.Scanner;
 
