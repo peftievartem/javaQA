@@ -51,8 +51,8 @@ public class Hw5Test {
         int[] expected1 = {2, -3, 45, 12};
         assertEquals(getAmountOfNegative(expected1), 1);
 
-        int[] expected2 = {32, -3, 45, 12};
-        assertEquals(getAmountOfNegative(expected1), 4);
+//        int[] expected2 = {32, -3, 45, 12};
+//        assertEquals(getAmountOfNegative(expected1), 4);
     }
 
     @Test
